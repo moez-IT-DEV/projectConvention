@@ -11,7 +11,7 @@ environment{
 stages {
 stage ('Initialize') {
 steps {
-git branch: 'main', url: 'https://github.com/moez1994/projectConvention.git'
+git branch: 'main', url: 'https://github.com/moez-IT-DEV/projectConvention.git'
 }
 }
 stage ('Maven Build') {
